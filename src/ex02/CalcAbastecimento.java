@@ -30,7 +30,7 @@ public class CalcAbastecimento {
             precoCombus = 2.50;
             taxaDesconto = (qtdLitros <= 20) ? 0.04 : 0.06;
         } else {
-            System.out.printf("Opção Inválida! O programa será encerrado.");
+            System.out.printf("Opção Inválida! O programa será encerrado.%n");
             precoCombus = 0;
             taxaDesconto = 0;
         }
@@ -44,7 +44,6 @@ public class CalcAbastecimento {
         System.out.printf("Subtotal a pagar: %1s R$ %.3f %n", espaco, valorSemDesconto);
         System.out.printf("Descontos: %8s R$ -%.3f %n", espaco, valorDesconto);
         System.out.printf("Total a pagar: %4s R$ %.3f %n", espaco, valorPagar);
-
 
     }
 }
