@@ -9,8 +9,6 @@ public class FolhaPagamento {
         double taxaInss = 0.10;
         double taxaFgts = 0.11;
         double taxaIr;
-        String textoMoeda = ": R$";
-
 
         System.out.println("---------------------------------------------");
         System.out.println("Boas-vindas ao Gerador de Folha de Pagamento!");
@@ -23,10 +21,18 @@ public class FolhaPagamento {
 
         double salarioBruto = valorHora * horasTrab;
 
-        if (salarioBruto <= 900) {taxaIr = 0;}
-        else if (salarioBruto <= 1500) {taxaIr = 0.05;}
-        else if (salarioBruto <= 2500) {taxaIr = 0.10;}
-        else {taxaIr = 0.20;}
+        if (salarioBruto <= 900) {
+            taxaIr = 0;
+        }
+        else if (salarioBruto <= 1500) {
+            taxaIr = 0.05;
+        }
+        else if (salarioBruto <= 2500) {
+            taxaIr = 0.10;
+        }
+        else {
+            taxaIr = 0.20;
+        }
 
         double pagIr = taxaIr * salarioBruto;
         double pagInss = taxaInss * salarioBruto;
