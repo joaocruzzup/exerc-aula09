@@ -21,4 +21,4 @@ Acesse aqui a pasta do projeto: [E-Abastecimento](https://github.com/joaocruzzup
 
 Sistema para detectar se uma pessoa é culpada em um crime. (Confira melhor o enunciado na pasta do exercício.
 
-Acesse aqui a pasta do projeto: [DetecaCulpa](https://github.com/joaocruzzup/exerc-aula09/tree/main/src/ex03)
+Acesse aqui a pasta do projeto: [DetectaCulpa](https://github.com/joaocruzzup/exerc-aula09/tree/main/src/ex03)
