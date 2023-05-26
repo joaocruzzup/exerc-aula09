@@ -11,7 +11,7 @@ public class FolhaPagamento {
         double taxaIr;
 
         System.out.println("---------------------------------------------");
-        System.out.println("Boas-vindas ao Gerador de Folha de Pagamento!");
+        System.out.println("Boas-vindas ao E-Folha de Pagamento!");
         System.out.printf("----------------------------------------------%n%n");
 
         System.out.println("Digite o valor da sua hora trabalhada: ");

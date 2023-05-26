@@ -17,7 +17,7 @@ Sistema para informar o valor do abastecimento (alcool ou gasolina) digital. (Co
 
 Acesse aqui a pasta do projeto: [E-Abastecimento](https://github.com/joaocruzzup/exerc-aula09/tree/main/src/ex02)
 
-## 🕵️‍♀️ DetecaCulpa (exerc 03):
+## 🕵️‍♀️ DetectaCulpa (exerc 03):
 
 Sistema para detectar se uma pessoa é culpada em um crime. (Confira melhor o enunciado na pasta do exercício.
 
