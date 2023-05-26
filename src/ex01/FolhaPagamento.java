@@ -34,6 +34,7 @@ public class FolhaPagamento {
             taxaIr = 0.20;
         }
 
+        double porcentagemIr = taxaIr * 100;
         double pagIr = taxaIr * salarioBruto;
         double pagInss = taxaInss * salarioBruto;
         double pagFgts = taxaFgts * salarioBruto;
@@ -43,7 +44,7 @@ public class FolhaPagamento {
         String espaco = " ";
         System.out.printf("%n-------------Folha de Pagamento-------------%n");
         System.out.printf("Salário Bruto: (%.0f * %.0f) %10s: R$ %.2f %n", valorHora, horasTrab,espaco, salarioBruto);
-        System.out.printf("(-) IR (5%%) %23s: R$ %.2f %n", espaco, pagIr);
+        System.out.printf("(-) IR (%.0f%%) %23s: R$ %.2f %n",porcentagemIr, espaco, pagIr);
         System.out.printf("(-) INSS (10%%) %20s: R$ %.2f %n", espaco, pagInss);
         System.out.printf("FGTS (11%%) %24s: R$ %.2f %n", espaco, pagFgts);
         System.out.printf("Total de descontos %16s: R$ %.2f %n", espaco, descontos);

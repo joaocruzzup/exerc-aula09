@@ -23,6 +23,7 @@ public class CalcAbastecimento {
 
         String codCombus = sc.next();
 
+        // Utilizei o operador ternário como forma de treinar, assim como forma de diminuir o tamanho do laço if-else
         if (codCombus.equalsIgnoreCase("A")){
             precoCombus = 1.90;
             taxaDesconto = (qtdLitros <= 20) ?  0.03 : 0.05;
@@ -36,13 +37,13 @@ public class CalcAbastecimento {
         }
 
         double valorSemDesconto = qtdLitros * precoCombus;
-        double valorDesconto = valorSemDesconto * taxaDesconto;
-        double valorPagar = valorSemDesconto - valorDesconto;
+        double valorDoDesconto = valorSemDesconto * taxaDesconto;
+        double valorPagar = valorSemDesconto - valorDoDesconto;
 
         String espaco = " ";
         System.out.println("--------------------------------");
         System.out.printf("Subtotal a pagar: %1s R$ %.3f %n", espaco, valorSemDesconto);
-        System.out.printf("Descontos: %8s R$ -%.3f %n", espaco, valorDesconto);
+        System.out.printf("Descontos: %8s R$ -%.3f %n", espaco, valorDoDesconto);
         System.out.printf("Total a pagar: %4s R$ %.3f %n", espaco, valorPagar);
 
     }

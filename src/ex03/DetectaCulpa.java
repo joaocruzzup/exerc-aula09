@@ -16,6 +16,8 @@ public class DetectaCulpa {
         System.out.println("Digite 'S' para SIM e 'N' para NÃO");
         System.out.println("--------------------------------\n");
 
+        // Utilizei o operador ternário para diminuir a quantidade de linhas que ficaria com o if-else
+        // Assim, a variável i é atualizada com a entrada, se for S, i é somado +1, se não permanece o mesmo valor (somado + 0)
         System.out.print("Telefonou para a vítima? ");
         i += (sc.next().equalsIgnoreCase("S") ? 1 : 0);
 
