@@ -37,5 +37,5 @@ javac FolhaPagamento.java
 ```
 - Após compilar, execute o comando `java`, como mostra abaixo:
 ```
-javac FolhaPagamento
+java FolhaPagamento
 ```
